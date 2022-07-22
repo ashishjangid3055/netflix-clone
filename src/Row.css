@@ -1,0 +1,25 @@
+.row{
+    padding: 0 1rem;
+}
+.movies_wrapper{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.movies_wrapper::-webkit-scrollbar{
+    display: none;
+}
+.movie_poster_big{
+    max-height: 250px;
+}
+.movie_posters{
+    margin-right: 10px;
+    object-fit: cover;
+}
+.movie_poster{
+    max-height: 150px;
+}
+.heading{
+    padding: 1rem 0;
+}

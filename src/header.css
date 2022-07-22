@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.head{
+	height: 100vh;
+}
+.banner_content{
+	padding: 0 2rem;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 2rem 2rem;
+	align-items: center;
+	height: 50px;
+	transition: all .5s ease-in-out;
+	background: transparent;
+}
+header.active{
+	background: #000;
+}
+.head h1{
+	color: #fff;
+	margin-bottom: 2rem;
+}
+.head p{
+	color: #fff;
+	max-width: 50%;
+	margin-top: 2rem;
+}
+.logo{
+	width: 120px;
+}
+.logo img{
+	width: 100%;
+}
+.cta a{
+	background: #000;
+	color: #fff;
+	padding: .75rem 1.5rem;
+	text-decoration: none;
+	margin-right: 1rem;
+}
